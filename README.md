@@ -70,4 +70,4 @@ networks are saved. Any open figures are not saved.
 
 If you run into bugs, or have questions about features; post a question on the [Scientific Community Image Forum.](https://forum.image.sc/) Be sure to add the *cytomap* tag to your topic for visibility.
 
-**Have fun exploring your data!**
+**Have fun exploring your data!**# CytoMAP
