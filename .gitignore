@@ -1,0 +1,7 @@
+*.m~
+out_*.txt
+*.asv
+.idea/*
+*.log
+~*.docx
+*.db

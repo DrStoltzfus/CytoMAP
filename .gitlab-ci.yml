@@ -1,0 +1,28 @@
+stages:
+  - IO
+  - Helper
+  - Analysis
+
+before_script:
+
+test_io:
+  stage: IO
+  script:
+    - cd Tests
+    - whoami
+    - matlab -logfile output_Test_IO.log -batch "invoke_tests('test_IO.m');"
+    - cat output_Test_IO.log
+
+test_helper:
+  stage: Helper
+  script:
+    - cd Tests
+    - matlab -logfile output_Test_Helper.log -batch "invoke_tests('test_Helper.m');"
+    - cat output_Test_Helper.log
+
+test_analysis:
+  stage: Analysis
+  script:
+    - cd Tests
+    - matlab -logfile output_Test_Analysis.log -batch "invoke_tests('test_Analysis.m');"
+    - cat output_Test_Analysis.log
