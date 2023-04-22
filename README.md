@@ -12,15 +12,11 @@ to use them to explore complex datasets. For an in depth walkthrough, [check out
 
 Authored by: 
 
-Dr. Caleb Stoltzfus - Lead Author, *University of Washington, Department of Immunology*
+Dr. Caleb Stoltzfus - Lead Author
 
 Yajun Wu (Cherie)- Technical Assistant, September 2019 to June 2020, *University of Washington, Mechanical Engineering*
 
 Jakub Filipek - Technical Assistant, October 2018 to August 2019, *University of Washington, Paul G. Allen School of Computer Science and Engineering*
-
-[University of Washington, School of Medicine, Immunology Department](https://www.immunology.washington.edu/)
-
-[Gerner Lab](http://depts.washington.edu/myglab/)
 
 ## Citation
 
@@ -38,7 +34,7 @@ To run CytoMAP in MATLAB you will also need to install MATLAB 2018b or later and
 * Statistics and Machine Learning Toolbox
 * Bioinformatics Toolbox
 
-You can download an installer for the compiled version of [CytoMAP here](https://gitlab.com/gernerlab/cytomap/raw/master/StandaloneInstaller/CytoMAP_Installer_Windows.exe)
+You can download an installer for the compiled version of [CytoMAP here](https://github.com/DrStoltzfus/CytoMAP/raw/main/StandaloneInstaller/CytoMAP_Installer_WindowsV1.4.21.exe)
 
 For the compiled version there is less built in functionality in the figure window. However, you do not need to install a full version of MATLAB.
 

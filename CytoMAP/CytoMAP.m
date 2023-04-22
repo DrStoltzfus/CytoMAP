@@ -187,7 +187,7 @@ classdef CytoMAP < handle
             set(groot, 'DefaultLegendInterpreter', 'none')
             %% Put in an CytoMAP label
             app.GUI.Labels.Cyto = uicontrol(app.GUI.Main, 'Style','text');
-            app.GUI.Labels.Cyto.String = '3DSAS';
+            app.GUI.Labels.Cyto.String = 'CytoMAP';
             app.GUI.Labels.Cyto.Position = [0 (700-590), 255, 80];
             Helper.func_SetCLR(app, app.GUI.Labels.Cyto, 'labelSpecial')
             app.GUI.Labels.Cyto.FontSize = 42;
@@ -197,9 +197,7 @@ classdef CytoMAP < handle
             %put in subtext
             app.GUI.Labels.subtxt = uicontrol(app.GUI.Main, 'Style','text');
             app.GUI.Labels.subtxt.String = sprintf(...
-                               ['3D Spatial Analysis Software\n\n'...
-                                '   Alpenglow Biosciences\n' ...
-                                '        Version 2']);
+                               ['3D Spatial Analysis Software']);
             app.GUI.Labels.subtxt.Position = [0 (700-645), 255, 70];
             Helper.func_SetCLR(app, app.GUI.Labels.subtxt, 'labelSpecial')
             app.GUI.Labels.subtxt.FontSize = 7;
@@ -208,9 +206,9 @@ classdef CytoMAP < handle
             app.GUI.Labels.LabWbs = uicontrol(app.GUI.Main,'Style','text');
             app.GUI.Labels.LabWbs.BackgroundColor = app.GUIOPTS.bgclr;
             app.GUI.Labels.LabWbs.ForegroundColor = 'b';
-            app.GUI.Labels.LabWbs.String= 'Alpenglow';
+            app.GUI.Labels.LabWbs.String= 'Web';
             app.GUI.Labels.LabWbs.Enable = 'Inactive';
-            app.GUI.Labels.LabWbs.ButtonDownFcn =@(button,event) web('https://www.alpenglowbiosciences.com/', '-browser');
+            app.GUI.Labels.LabWbs.ButtonDownFcn =@(button,event) web('https://cstoltzfus.com/', '-browser');
             app.GUI.Labels.LabWbs.Position = [10 (700-690), 117.5, 30];
             Helper.func_SetCLR(app, app.GUI.Labels.LabWbs, 'labelSpecial')
             %app.GUI.Buttons.LabWbs.FontColor = 'b';
